@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice4</title>
+</head>
+<body>
+    <div>
+    <label for="nom">Nom:</label>
+    <input type="text" name="nom" required maxlength="150"/>
+    </div>
+    <div>
+        <label for="prénom">prénom:</label>
+        <input type="text" name="prénom" required maxlength="50"/>
+    </div>
+   
+        <div>
+            <label for="">Date de naissance:</label>
+            <input type="date" id="birth" name="birthday" min="1990-01-01">
+        </div>
+        <div>
+            <label for="">Nationalité:</label>
+            <select name="Nationalité">
+            <option value="tunisienne">tunisien</option>
+            <option value="français">français</option>
+        </select>
+        </div>
+        <div>
+            <label for="adresse">Adresse postale:</label>
+            <input type="text" name="adresse"/> 
+        </div>
+        <div>     <label for="Email">Email:</label>
+       
+        <input type="mail" name="Email" maxlength="8">
+        </div>
+       
+            <div>
+                <label for="tel">Numéro de téléphone:</label>
+                <input type="tel" id="telephone" name="tel" value="+216" pattern="\+216\d{8}" title="Veuillez entrer un numéro de téléphone de 8 chiffres après +216." required>
+            </div>
+            
+            <div>
+                <label for="">Diplome:</label>
+                <select name="diplome">
+                <option value="">sans bac</option>
+                <option value="">avec bac</option>
+                <option value="">bac+2</option>
+                <option value="">bac+3</option>
+            </select>
+            </div>
+</body>
+</html>
