@@ -1,0 +1,157 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style: none;
+    text-decoration:none;
+    scroll-padding-top: 2rem;
+    scroll-behavior:smooth;
+}
+body{
+    background-color:#e1dada;
+}
+header{
+    position: fixeed;
+    width:100%;
+    top: 0;
+    right:0;
+    z-index:1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background:var(--bg-color);
+    box-shadow: 0 8px 11px rgb(14 55 54/15%);
+    padding: 20px 100px;
+    transition: 0.5s;
+
+}
+.profile{
+    display:flex;
+    align-items: center;
+    column-gap:0.5rem;
+    cursor:pointer;
+}
+.img{
+    width:40px;
+    height:40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius:  50px;
+}
+.profile span{
+    font-size: 13px;
+    font-weight: 500px;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:var(--text-color);
+    column-gap:0.5rem;
+}
+.logo .bx{
+    font-size: 24px;
+    color:var(--darkblue-color);
+}
+.navbar{
+    display:flex;
+    column-gap:0.5rem;
+}
+.navbar a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:var(--text-color);
+    padding:0.5rem 1rem;
+}
+.navbar a:hover{
+    background: var(--text-color);
+    border-radius: 5rem;
+    color:#caa5a5;
+    transition: background 0.8s;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor:pointer;
+    z-index: 10001;
+    display:none;
+}
+.footer{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    grid-template-columns:repeat(auto-fit,minmax(200px,auto));
+    gap:1.5rem;
+    margin-top: 2rem;
+    background-color: #e3c2c2;
+    border-radius: 0.5rem;
+    padding:40px;
+    flex-direction:row;
+}
+.footer-box{
+    display:flex;
+    flex-direction:column;
+    min-width: 200px;
+    flex: 1;
+    
+
+}
+.footer-box p{
+    font-size: 0.938rem;
+    margin:0.5rem 0 1rem;
+    
+}
+.social{
+    display:flex;
+    align-items: center;
+    column-gap:0.2rem ;
+}
+.social .bx{
+    padding:10px;
+    background-color: beige;
+    color:#eacece;
+    border-radius: 5rem;
+    font-size: 20px;
+}
+.social .bx:hover{
+    background-color:#c48585;
+    color:#eacece;
+    transition:0.2s all linear;
+}
+.footer-box h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.footer-box a{
+    color:#000000;
+    margin-bottom: 1rem;
+}
+.footer-box a:hover{
+    color:#eacece;
+
+
+}
+
+
+.copyright{
+    text-align: center;
+    padding:20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    align-items: center;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
